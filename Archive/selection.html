@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="selection.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body onload=calcSlider()>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="./images/logo.png" alt="logo" class="logo-img">
+                <h4 class="logo">Sort Visualizer</h4>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="main.html" class="list-items">Home</a></li>
+                    <li><a href="about.html" class="list-items">About</a></li>
+                    <li><a href="contact.html" class="list-items">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <div class="slidecontainer">
+            <input type="range" min="2" max="20" value="10" class="slider" id="quantity">
+            <input type="range" min="1" max="5" value="1" class="slider" id="random">
+        </div>
+        <div class="slideWrapper">
+            <div id="slider1"></div>
+            <div id="slider2"></div>
+        </div>
+        <div class="buttonHolder">
+            <input class="button , buttonInd" type="Submit" value="Selection" onclick="selection();">
+            <input class="button" type="Submit" value="Insertion" onclick="insertio();">
+            <input class="button" type="Submit" value="Cancel" onclick="cancelSort();">
+        </div>
+        <div id="main"></div>
+        <div id="results"></div>
+    </main>
+    <script src="slider.js"></script>
+</body>
+
+</html>
