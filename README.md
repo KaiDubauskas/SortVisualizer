@@ -1,7 +1,7 @@
-# SortVisualizer
+# Sort Visualizer
 
 ## Description
-Uses native Javascript, HTML and CSS to visualize different sorts
+Uses Javascript, HTML and CSS to visualize different sorts
 
 ![alt text](https://github.com/KaiDubauskas/SortVisualizer/blob/master/SortVisualizer.gif "Logo Title Text 1")
 <p align="center">^ Visualization of Selection Sort ^</p>
