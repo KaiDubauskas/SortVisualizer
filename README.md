@@ -15,4 +15,4 @@ Uses Javascript, HTML and CSS to visualize different sorts
 
 ## Visualizing Sorts
 
-From the homepage, click <b>Start Now</b> to go to the sort visualization page. Here, you'll see two sliders. The first controls the number of elements to be sorted. The second slider controls the initial randomness of the list. A value of 1 will create a completely random list, while a value of 5 will create a near perfect lsit of descending values. 
+From the homepage, click <b>Start Now</b> to go to the sort visualization page. Here, you'll see two sliders. The first controls the number of elements to be sorted. The second slider controls the initial randomness of the list. A value of 1 will create a completely random list, while a value of 5 will create a near perfect list of descending values. 
