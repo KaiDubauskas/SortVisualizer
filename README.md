@@ -2,6 +2,7 @@
 
 ## Description
 -Uses Javascript, HTML and CSS to visualize different sorts.
+
 -Final project for my CS Topics class (originally created during the first half of 2020).
 
 ![alt text](https://github.com/KaiDubauskas/SortVisualizer/blob/master/SortVisualizer.gif "Logo Title Text 1")
